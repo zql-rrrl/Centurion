@@ -3,4 +3,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    return render(request, 'quantum_fluctuations/home.html')
+    return HttpResponse('QF HOME')
+
+
+

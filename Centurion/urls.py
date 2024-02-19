@@ -21,5 +21,6 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', views.home),
-    path('', include('quantum_fluctuations.urls'))
+    path('one/', views.one),
+    path('qf/', include('quantum_fluctuations.urls'))
 ]
