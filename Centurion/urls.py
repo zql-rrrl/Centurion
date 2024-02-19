@@ -22,5 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', views.home),
     path('one/', views.one),
-    path('qf/', include('quantum_fluctuations.urls'))
+    path('api/', include('quantum_fluctuations.urls'))
 ]
