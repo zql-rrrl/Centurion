@@ -20,7 +20,6 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', views.home),
-    path('one/', views.one),
-    path('api/', include('quantum_fluctuations.urls'))
+    path('api/quantum_fluctuations/', include('quantum_fluctuations.urls')),
+    path('api/maxim/', include('maxim.urls'))
 ]
