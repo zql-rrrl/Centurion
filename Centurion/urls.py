@@ -21,5 +21,10 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/quantum_fluctuations/', include('quantum_fluctuations.urls')),
-    path('api/maxim/', include('maxim.urls'))
+    path('api/maxim/', include('maxim.urls')),
+    path('api/accounts/', include('accounts.urls')),
+    path('api/wooden_pile/', include('wooden_pile.urls')),
+    path('api/root_affix/', include('root_affix.urls')),
+    path('api/high_frequency_words/', include('high_frequency_words.urls')),
+    path('api/small_habit/', include('small_habit.urls')),
 ]
